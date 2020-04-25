@@ -1,0 +1,49 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "introduction",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "IntroductionIntent",
+                    "slots": [],
+                    "samples": [
+                        "Can you say that again",
+                        "I am sorry I missed that",
+                        "tell me about Alexa",
+                        "who are you",
+                        "introduce yourself"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "UserIntroductionIntent",
+                    "slots": [],
+                    "samples": [
+                        "My name is",
+                        "I am"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

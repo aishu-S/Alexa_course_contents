@@ -1,0 +1,58 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "phonenumber",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AddPhoneNumberIntent",
+                  "slots": [
+                      {
+                          "name": "name",
+                          "type": "AMAZON.US_FIRST_NAME"
+                      },
+                      {
+                          "name": "number",
+                          "type": "AMAZON.PhoneNumber"
+                      }
+                  ],
+                  "samples": [
+                      "{name} s number is {number}",
+                      "remember that {name} s number is {number}",
+                      "{name} said her number is {number}",
+                      "{name} said his number is {number}"
+                  ]
+              },
+              {
+                  "name": "FetchPhoneNumber",
+                  "slots": [
+                      {
+                          "name": "name",
+                          "type": "AMAZON.US_FIRST_NAME"
+                      }
+                  ],
+                  "samples": [
+                      "do you remember {name} s  number",
+                      "what is {name} s number"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}

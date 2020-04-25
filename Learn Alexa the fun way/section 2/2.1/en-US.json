@@ -1,0 +1,30 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "first picture quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "bye"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+            ],
+            "types": [
+           
+            ]
+        }
+    }
+}

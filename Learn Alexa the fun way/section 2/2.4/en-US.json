@@ -1,0 +1,132 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "first picture quiz",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "bye"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "greetUserIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "my name is {name}",
+                        "You can call me as {name}",
+                        "{name}"
+                    ]
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "play again",
+                        "give me another question",
+                        "next question",
+                        "start the quiz"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "pokemon",
+                            "type": "Pokemon"
+                        }
+                    ],
+                    "samples": [
+                        "I think it is {pokemon}",
+                        "{pokemon}",
+                        "is it {pokemon}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Pokemon",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "jigglypuff"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mewtwo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "meowth"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lucario"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eevee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "squirtle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "torchic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "charizard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "horsea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bulbasaur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "raichu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pikachu"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

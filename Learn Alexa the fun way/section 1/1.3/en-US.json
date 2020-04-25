@@ -1,0 +1,35 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my first skill",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "IntroductionIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me about Alexa",
+                        "who are you",
+                        "introduce yourself"
+                    ]
+                },
+            ],
+            "types": []
+        }
+    }
+}
